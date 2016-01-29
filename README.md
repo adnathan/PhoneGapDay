@@ -1,4 +1,6 @@
-This is the source code for the PhoneGap Day app used at PhoneGap Day 2016.
+## PhoneGap Day App Source Code
+
+This is the source code for the PhoneGap Day app used at PhoneGap Day 2016 and available [here for Android](https://play.google.com/store/apps/details?id=com.microsoft.phonegapday.sample).
 
 It demonstrates the use of Ace to infuse native UI into an Ionic 2 app, and is a modification of the sample at https://github.com/driftyco/ionic-conference-app.
 
@@ -8,4 +10,4 @@ Please visit our [homepage](http://ace.run/) for more info!
 
 ## LICENSE
 
-Ace is licensed under the MIT Open Source license.
+This sample is licensed under the MIT Open Source license.
