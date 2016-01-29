@@ -1,0 +1,10 @@
+﻿<Canvas xmlns:if="using:if"
+        xmlns:ios="using:ios"
+        xmlns:android="using:android.widget">
+    <if:Android>
+        <android:RatingBar StepSize="1" />
+    </if:Android>
+    <if:iOS>
+        <ios:UISegmentedControl />
+    </if:iOS>
+</Canvas>

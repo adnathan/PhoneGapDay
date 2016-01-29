@@ -1,0 +1,12 @@
+﻿<Page xmlns:ace="using:run.ace" ace:Frame.Title="My Ratings" ace:On.Loaded="onMyRatingsLoad(this)">
+    <!-- A button to delete all -->
+    <Page.TopAppBar>
+        <CommandBar>
+            <AppBarButton Name="deleteButton" Label="Delete All" ace:On.Click="deleteAllRatings(this)" />
+        </CommandBar>
+    </Page.TopAppBar>
+    
+    <!-- The listbox is populated from code -->
+    <ListBox Name="list">
+    </ListBox>
+</Page>

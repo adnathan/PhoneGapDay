@@ -1,0 +1,19 @@
+﻿<Page xmlns:ace="using:run.ace" ace:Frame.Title="Schedule">
+    <!-- A tab bar -->
+    <Page.BottomAppBar>
+        <ace:TabBar>
+            <AppBarButton Icon="www/img/tabs/calendar-{platform}.png" 
+                          Label="Schedule" 
+                          ace:On.Click="onTabClick(this, 0)" />
+            <AppBarButton Icon="www/img/tabs/people-{platform}.png" 
+                          Label="Speakers" 
+                          ace:On.Click="onTabClick(this, 1)" />
+            <AppBarButton Icon="www/img/tabs/map-{platform}.png" 
+                          Label="Map" 
+                          ace:On.Click="onTabClick(this, 2)" />
+            <AppBarButton Icon="www/img/tabs/info-{platform}.png" 
+                          Label="About" 
+                          ace:On.Click="onTabClick(this, 3)" />
+        </ace:TabBar>
+    </Page.BottomAppBar>
+</Page>

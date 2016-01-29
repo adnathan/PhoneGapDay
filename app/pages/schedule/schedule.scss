@@ -1,0 +1,29 @@
+$categories: (
+ ionic: map-get($colors, primary),
+ session: #27A1C5,
+ workshop: #033351,
+ food: #F4B504,
+ break: #FF7F54,
+ registration: #ffffff,
+ native: #ffffff,
+ bluetooth: #ffffff,
+ security: #ffffff,
+ example: #ffffff,
+ push: #ffffff,
+ performance: #ffffff,
+ vs: #ffffff,
+ workflow: #ffffff,
+);
+
+@function auxiliary-categories() {
+  @return map-remove($categories);
+}
+
+.schedule {
+  @each $track, $value in auxiliary-categories() {
+   ion-item-sliding[track=#{$track}] ion-item-content {
+     border-left: 2px solid $value;
+     padding-left: 10px;
+   }
+  }
+}

@@ -1,0 +1,16 @@
+
+<ion-navbar highlight *navbar>
+  <ion-title>{{session.timeStart}} - {{session.timeEnd}}</ion-title>
+</ion-navbar>
+
+<ion-content style="background-image:url(img/background.png);background-size:cover" padding>
+  <h1 style="margin-top:35px"></h1>
+
+  <h5 style="margin-top:35px">{{session.name}}</h5>
+
+  <h6 style="margin:0" *ngFor="#speaker of session.speakers">
+    <a href="#" (click)="goToSpeakerDetail(speaker)">{{speaker.name}}</a>
+  </h6>
+
+  <p style="font-size:small; font-weight:bold">{{session.description}}</p>
+</ion-content>

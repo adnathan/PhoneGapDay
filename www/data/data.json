@@ -1,0 +1,663 @@
+{
+
+  "schedule": [
+    {
+      "groups": [
+        {
+          "time": "Thursday, 8:30 am",
+          "sessions": [
+            {
+              "name": "Registration and breakfast",
+              "timeStart": "8:30 am",
+              "timeEnd": "9:00 am",
+              "tracks": [ "Food", "Registration" ]
+            }
+          ]
+        },
+        {
+          "time": "Thursday, 9:00 am",
+          "sessions": [
+            {
+              "name": "PhoneGap Beginner",
+              "description": "This workshop will provide an introduction to PhoneGap, the philosophy behind it, and how to get started quickly using a variety of different tools available. You will learn how to create a simple mobile app using the PhoneGap CLI, PhoneGap Desktop App, PhoneGap Developer App, and more. You'll then learn how to extend the app with plugins, manipulate it with hooks, and debug it with the various tools available. By the end of this beginner workshop, you will walk away with a solid understanding of what PhoneGap is all about and how to use it for your next project.",
+              "speakerNames": [ "Garth Braithwaite" ],
+              "timeStart": "9:00 am",
+              "timeEnd": "10:30 am",
+              "tracks": [ "Workshop" ]
+            },
+            {
+              "name": "Hands-on Bluetooth Low Energy",
+              "description": "You’ve heard a lot about Bluetooth low energy, but do you understand how it works? This workshop will give you a chance to get hands-on experience building PhoneGap applications that interact with Bluetooth Smart devices. We will cover Bluetooth LE concepts like services and characteristics while we are building the software. The mobile application will be written with PhoneGap so it will run on iOS or Android. The phone will control hardware via Bluetooth LE, and automatically receive notifications when something changes on the peripheral. Participants will be required to bring a laptop and are encouraged to bring a Bluetooth LE-capable iOS or Android phone. There will be a limited number of phones that people can borrow for the workshop. Familiarity with at least one programming language is helpful but not required. A list of required free software will be sent to attendees before the workshop.",
+              "speakerNames": [ "Don Coleman" ],
+              "timeStart": "9:00 am",
+              "timeEnd": "10:30 am",
+              "tracks": [ "Workshop", "Bluetooth" ]
+            },
+            {
+              "name": "App Privacy and Security for PhoneGap Developers",
+              "description": "Our mobile devices are rich targets packed full of sensors, and ripe for the harvesting of personal information. All too often, developers on deadlines leave security and privacy concerns until the last minute, or don't get around to them at all. This workshop will show not only the importance of security and privacy, but some basic steps we as developers can take to ensure our apps are a safe place for our users (not to mention keeping the app safe from those same users). From avoiding XSS, understanding the whitelist and CSP, to ensuring that what data we do collect is kept safe. This workshop will give you a better understanding of how to ensure privacy and security are a part of your app from day one.",
+              "speakerNames": [ "Tommy Williams" ],
+              "timeStart": "9:00 am",
+              "timeEnd": "10:30 am",
+              "tracks": [ "Workshop", "Security" ]
+            }
+          ]
+        },
+        {
+          "time": "Thursday, 10:30 am",
+          "sessions": [
+            {
+              "name": "Thursday Break #1",
+              "timeStart": "10:30 am",
+              "timeEnd": "10:45 am",
+              "tracks": [ "Break" ]
+            }
+          ]
+        },
+        {
+          "time": "Thursday, 10:45 am",
+          "sessions": [
+            {
+              "name": "PhoneGap Intermediate",
+              "description": "In this workshop we'll walk through creating an app from start to finish. Throughout the process we'll gain an understanding of common mobile app development paradigms (navigation, view stacks), popular mobile framework options, mobile UI design patterns (flat vs. material design), performance tips, app configuration (preferences, permissions, icons, splash screens), and more!",
+              "speakerNames": [ "Holly Schinsky" ],
+              "timeStart": "10:45 am",
+              "timeEnd": "12:00 pm",
+              "tracks": [ "Workshop" ]
+            },
+            {
+              "name": "Building an App with Ionic 2",
+              "description": "You've built Ionic apps before, but now that V2 is out, what can you expect? In this session, we'll look at an Ionic 1 app and go through the process of building its Ionic 2 equivalent.",
+              "speakerNames": [ "Mike Hartington" ],
+              "timeStart": "10:45 am",
+              "timeEnd": "12:00 pm",
+              "tracks": [ "Workshop" ]
+            },
+            {
+              "name": "App Submission",
+              "description": "Submitting an app.",
+              "speakerNames": [ "Tim Kim" ],
+              "timeStart": "10:45 am",
+              "timeEnd": "12:00 pm",
+              "tracks": [ "Workshop" ]
+            }
+          ]
+        },
+        {
+          "time": "Thursday, 12:00 pm",
+          "sessions": [
+            {
+              "name": "Thursday Lunch",
+              "timeStart": "12:00 pm",
+              "timeEnd": "1:00 pm",
+              "tracks": [ "Food" ]
+            }
+          ]
+        },
+        {
+          "time": "Thursday, 1:00 pm",
+          "sessions": [
+            {
+              "name": "Build the Amazon App",
+              "description": "",
+              "speakerNames": [ "Shawn Jansepar", "Loki Meyburg" ],
+              "timeStart": "1:00 pm",
+              "timeEnd": "2:00 pm",
+              "tracks": [ "Workshop", "Example" ]
+            },
+            {
+              "name": "Memory Leaks in Hybrid Mobile Apps",
+              "description": "An investigation into how memory leaks affect hybrid applications and how to track them down.",
+              "speakerNames": [ "Chris Gosselin" ],
+              "timeStart": "1:00 pm",
+              "timeEnd": "2:00 pm",
+              "tracks": [ "Workshop" ]
+            },
+            {
+              "name": "Cordova Plugins in Action",
+              "description": "",
+              "speakerNames": [ "Brian Rinaldi", "TJ VanToll" ],
+              "timeStart": "1:00 pm",
+              "timeEnd": "2:00 pm",
+              "tracks": [ "Workshop", "Native", "Example" ]
+            }
+          ]
+        },
+        {
+          "time": "Thursday, 2:00 pm",
+          "sessions": [
+            {
+              "name": "PhoneGap Push Notifications",
+              "description": "In this workshop we'll walk through adding push notification capabilities to your application. You'll learn how to set up a Google Cloud Messaging project for Android notifications and adding push capabilities to your iOS certificate and provisioning profiles. You'll gain an understanding of how to register with your remote push service and handle incoming notifications. Advanced topics will include how to add action buttons, responding to silent push notifications and testing using node.js.",
+              "speakerNames": [ "Simon Macdonald" ],
+              "timeStart": "2:00 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": [ "Workshop", "Push" ]
+            },
+            {
+              "name": "Embedding PhoneGap Natively: The Hybrid Sweet Spot",
+              "description": "Many developers choose to build native navigation and transitions into their apps but use webviews for the main content, allowing them to realize a large cost and time savings while making their app available to a wider range of users quickly. This approach also provides the ability to push timely updates without app store approval hassles. With this model, only a small native code-base needs to be maintained per platform, and it’s typically the static elements of the app rather than the main content, thus more manageable.",
+              "speakerNames": [ "Anis Kadri" ],
+              "timeStart": "2:00 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": [ "Workshop", "Native" ]
+            },
+            {
+              "name": "Plugins are Everything, and Everything is a Plugin!",
+              "description": "Jesse has been writing PhoneGap plugins since before there were plugins. In this deep dive workshop Jesse will cover all the requirements of making great plugins, from conception to testing to publishing. He will also share some secrets from his bag'o'tricks and demonstrate some interesting uses for plugins you may not have thought of. Come ready to build!",
+              "speakerNames": [ "Jesse MacFadyen" ],
+              "timeStart": "2:00 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": [ "Workshop", "Native" ]
+            }
+          ]
+        },
+        {
+          "time": "Thursday, 3:30 pm",
+          "sessions": [
+            {
+              "name": "Thursday Break #2",
+              "timeStart": "3:30 pm",
+              "timeEnd": "3:45 am",
+              "tracks": [ "Break" ]
+            }
+          ]
+        },
+        {
+          "time": "Thursday, 3:45 pm",
+          "sessions": [
+            {
+              "name": "Supercharge your Hybrid Apps with Microservices for Mobile",
+              "description": "In this hands-on session, we will first build a simple Cordova based mobile app using the barcode scanner plugin. Then, we’ll build a microservice written in Node.js to retrieve some hard-to-get data. Along the way, we’ll explore the benefits of this approach, and why hybrid mobile apps are really just an extension of microservices to the client side. Participants only need to bring a laptop with a modern web browser, and will leave the session primed with practical experience building microservices for their mobile apps.",
+              "speakerNames": [ "Cian Clarke" ],
+              "timeStart": "3:45 pm",
+              "timeEnd": "4:45 pm",
+              "tracks": [ "Workshop" ]
+            },
+            {
+              "name": "Hands on: Create advanced apps with the Crosswalk runtime",
+              "description": "Join Crosswalk architect, Alexis Menard, in a hands-on lab where you will discover how to leverage the power of Crosswalk in your web and hybrid applications and take advantage of the latest web innovations across Android, iOS, and Windows.",
+              "speakerNames": [ "Alexis Menard" ],
+              "timeStart": "3:45 pm",
+              "timeEnd": "4:45 pm",
+              "tracks": [ "Workshop" ]
+            },
+            {
+              "name": "Optimizing Performance and User Interface",
+              "description": "Performance was a major concern among hybrid app developers for many years, which has been dramatically improved by the computing power and the performant web views. However, it does not mean you can build an app that runs smoothly without any prior knowledge. This session will describe some of the best practices to analyze, measure and improve the app, ensuring its better user experience.",
+              "speakerNames": [ "Masahiro Tanaka" ],
+              "timeStart": "3:45 pm",
+              "timeEnd": "4:45 pm",
+              "tracks": [ "Workshop", "Performance" ]
+            }
+          ]
+        },
+        {
+          "time": "Thursday, 4:45 pm",
+          "sessions": [
+            {
+              "name": "REPEAT: PhoneGap Push Notifications",
+              "description": "In this workshop we'll walk through adding push notification capabilities to your application. You'll learn how to set up a Google Cloud Messaging project for Android notifications and adding push capabilities to your iOS certificate and provisioning profiles. You'll gain an understanding of how to register with your remote push service and handle incoming notifications. Advanced topics will include how to add action buttons, responding to silent push notifications and testing using node.js.",
+              "speakerNames": [ "Simon Macdonald" ],
+              "timeStart": "4:45 pm",
+              "timeEnd": "6:00 pm",
+              "tracks": [ "Workshop", "Push" ]
+            },
+            {
+              "name": "REPEAT: Hands-on Bluetooth Low Energy",
+              "description": "You’ve heard a lot about Bluetooth low energy, but do you understand how it works? This workshop will give you a chance to get hands-on experience building PhoneGap applications that interact with Bluetooth Smart devices. We will cover Bluetooth LE concepts like services and characteristics while we are building the software. The mobile application will be written with PhoneGap so it will run on iOS or Android. The phone will control hardware via Bluetooth LE, and automatically receive notifications when something changes on the peripheral. Participants will be required to bring a laptop and are encouraged to bring a Bluetooth LE-capable iOS or Android phone. There will be a limited number of phones that people can borrow for the workshop. Familiarity with at least one programming language is helpful but not required. A list of required free software will be sent to attendees before the workshop.",
+              "speakerNames": [ "Don Coleman" ],
+              "timeStart": "4:45 pm",
+              "timeEnd": "6:00 pm",
+              "tracks": [ "Workshop", "Bluetooth" ]
+            },
+            {
+              "name": "Visual Studio Workshop",
+              "description": "",
+              "speakerNames": [ "Ryan J Salva" ],
+              "timeStart": "4:45 pm",
+              "timeEnd": "6:00 pm",
+              "tracks": [ "Workshop", "VS" ]
+            }
+          ]
+        },
+
+        {
+          "time": "Friday",
+          "sessions": [
+            {
+              "name": "Registration and breakfast (Day 2)",
+              "timeStart": "8:30 am",
+              "timeEnd": "9:00 am",
+              "tracks": [ "Food", "Registration" ]
+            },
+            {
+              "name": "PhoneGap Kick Off",
+              "description": "",
+              "speakerNames": [ "Michael Brooks" ],
+              "timeStart": "9:00 am",
+              "timeEnd": "9:15 am",
+              "tracks": [ "Session" ]
+            },
+            {
+              "name": "Mind the Gap: Supercharge your PhoneGap Workflow",
+              "description": "Developing a complex and sustainable PhoneGap app can present many challenges. As your app grows, a seamless development workflow is crucial. Can you efficiently deploy and test in different environments? What are your pain points when implementing new functionality? How can you organize all the facets of your app with minimal effort? Mind the gap focuses on some of the ways you can create a development workflow that automates these inefficiencies, boosts scalability and most of all, preserves developer sanity.",
+              "speakerNames": [ "Eric Alli" ],
+              "timeStart": "9:15 am",
+              "timeEnd": "9:50 am",
+              "tracks": [ "Session", "Workflow" ]
+            },
+            {
+              "name": "Automated App Testing: A pain or cure?",
+              "description": "At testmunk we have been working with many popular apps by helping them ship better apps faster. We have automated testing for various Phonegap/Cordova apps (as well as others), allowing for quick detection of layout issues and crashes. In this talk I'd like to touch on some of the testing challenges developers/QAs come across due to today’s large device and OS fragmentation, and how automated testing can ease some of these issues. I will also show some examples of how developers can quickly set up their own automated tests and run them on a large set of devices.",
+              "speakerNames": [ "Martin Poschenrieder" ],
+              "timeStart": "9:50 am",
+              "timeEnd": "10:10 am",
+              "tracks": [ "Session", "Workflow" ]
+            },
+            {
+              "name": "Finding the sweet spot - blending the best of native and web",
+              "description": "Choose the best technology for the job. Too often projects begin as hybrid apps, but switch to native for performance reasons. But it’s almost never the case that all features of your app need to be fully native. Today, many apps such as Amazon, Basecamp, Yelp and more take a blended approach. We'll guide you through case studies of how we build high performance apps that blend the best of native and web and highlight lessons we've learned along the way.",
+              "speakerNames": [ "Shawn Jansepar" ],
+              "timeStart": "10:10 am",
+              "timeEnd": "10:30 am",
+              "tracks": [ "Session", "Native" ]
+            },
+            {
+              "name": "Friday Break #1",
+              "timeStart": "10:30 am",
+              "timeEnd": "10:40 am",
+              "tracks": [ "Break" ]
+            },
+            {
+              "name": "Ionic: Version 2 and Beyond",
+              "description": "Ionic 1.0 has enabled many web developers to become mobile app developers. With the arrival of Angular 2 and its changes, and with ES6 being finalized, development has been improved yet again. How will that impact Ionic? In this session, we’ll compare Ionic 1 and Ionic 2 and go over what we've learned, what improvements we're making to Ionic, and how easy it will be to develop apps with Ionic 2.",
+              "speakerNames": [ "Mike Hartington" ],
+              "timeStart": "10:40 am",
+              "timeEnd": "11:00 am",
+              "tracks": [ "Session" ]
+            },
+            {
+              "name": "The Story of an App: How StoryCorps Built and Launched the StoryCorps.me Beta Platform and What We've Learned So Far",
+              "description": "Dean Haddock shares the story of the StoryCorps app, from early prototypes to the TED Prize and beyond.",
+              "speakerNames": [ "Dean Haddock" ],
+              "timeStart": "11:00 am",
+              "timeEnd": "11:25 am",
+              "tracks": [ "Session", "Example" ]
+            },
+            {
+              "name": "PhoneGap Applications with Ember: Lessons Learned",
+              "description": "The benefits of hybrid applications are obvious (less code, simpler code, iterate faster). Developers often make quick pace, boot their app and then hit a wall trying to make it 'feel native'. This talk will discuss lessons learned & optimization techniques from having built many apps with Ember & phonegap. While this talk uses Ember & Ember packages, the tools and techniques discussed generically apply to any Phonegap application.",
+              "speakerNames": [ "Alex Blom" ],
+              "timeStart": "11:25 am",
+              "timeEnd": "12:05 pm",
+              "tracks": [ "Session", "Performance", "Example" ]
+            },
+            {
+              "name": "Using Monaca Cloud to enhance Cordova development",
+              "description": "",
+              "speakerNames": [ "Masahiro Tanaka" ],
+              "timeStart": "12:05 pm",
+              "timeEnd": "12:25 pm",
+              "tracks": [ "Session" ]
+            },
+            {
+              "name": "Friday Lunch",
+              "timeStart": "12:25 pm",
+              "timeEnd": "1:15 pm",
+              "tracks": [ "Food" ]
+            },
+            {
+              "name": "Cordova Plugin Roundup",
+              "description": "In last few years Cordova plugins have become the cornerstone of many high-quality Cordova and PhoneGap applications. In just the last year, we at Telerik have grown our curated Cordova plugins marketplace from small handful of plugins to now 65 and counting. In this talk you’ll learn about the latest greatest in the Cordova plugin world, including plugins for the Apple Watch, Mapbox maps, and a whole lot more.",
+              "speakerNames": [ "TJ VanToll" ],
+              "timeStart": "1:15 pm",
+              "timeEnd": "1:35 pm",
+              "tracks": [ "Session", "Native" ]
+            },
+            {
+              "name": "PhoneGap and React.js",
+              "description": "React.js has been changing the way web developers build user interfaces for the web, but what about hybrid mobile apps, where jQuery Mobile and Angular remain the most popular frameworks? In this talk Jed will review the advantages and challenges of React for mobile, why it is an exciting framework to use, and how to integrate the React ecosystem into your development workflow.",
+              "speakerNames": [ "Jed Watson" ],
+              "timeStart": "1:35 pm",
+              "timeEnd": "2:15 pm",
+              "tracks": [ "Session" ]
+            },
+            {
+              "name": "When the heck is 4/8/2016?",
+              "description": "This talk will cover basic internationalization, globalization issues with Cordova apps. I'll talk about the Globalization plugin (and how to work around the async nature of the plugin), the Intl class, and other options. Also, I'll discuss why you should give a damn as a developer.",
+              "speakerNames": [ "Raymond Camden" ],
+              "timeStart": "2:15 pm",
+              "timeEnd": "2:35 pm",
+              "tracks": [ "Session" ]
+            },
+            {
+              "name": "Fixing Continuous Delivery for Mobile",
+              "description": "Manual builds and app store approval lags make it near impossible to have an effective mobile continuous delivery process. In turn, this hurts our attempts to be truly Agile with our mobile projects. The solution? Per-pull request deployment through CircleCI, CodePush and a custom CodePush loader in your app. This enables hands-free, automated deployment from commit to a user device, radically changing your testing, validation, and your user feedback processes.",
+              "speakerNames": [ "Nick Van Weerdenburg" ],
+              "timeStart": "2:35 pm",
+              "timeEnd": "2:55 pm",
+              "tracks": [ "Session" ]
+            },
+            {
+              "name": "Making Enterprise Sh_t",
+              "description": "Does the idea of writing enterprise software conjure up images of bland user interfaces, XML-based configuration, and IE8 compatibility? The folks on Adobe’s Experience Manager Apps team have been working hard at avoiding these stereotypes, while building a platform for delivering and managing mobile apps for enterprise customers. This talk will provide a glimpse into the following: What are the perks of including a content management system in my app dev arsenal? Which tools are available for me to take full advantage of Adobe’s Marketing Cloud solutions? As a developer, what open source goodness can I try out today?",
+              "speakerNames": [ "Bruce Lefebvre" ],
+              "timeStart": "2:55 pm",
+              "timeEnd": "3:25 pm",
+              "tracks": [ "Session", "Example" ]
+            },
+            {
+              "name": "The Crosswalk Advantage – a powerful runtime for your Cordova Apps",
+              "description": "Discover how to add advanced capabilities to your PhoneGap applications with very little effort. The Crosswalk runtime gives your application the ability to use the newest, just-released features on all platforms with predictable behavior.",
+              "speakerNames": [ "Bob Spencer" ],
+              "timeStart": "3:25 pm",
+              "timeEnd": "3:45 pm",
+              "tracks": [ "Session" ]
+            },
+            {
+              "name": "Friday Break #2",
+              "timeStart": "3:45 pm",
+              "timeEnd": "4:00 pm",
+              "tracks": [ "Break" ]
+            },
+            {
+              "name": "Build and Market Your App: Small Team Success",
+              "description": "This talk will provide the tools and methodologies to help any solo developer or small team build and then market their app to ensure it has the best chance for success. We'll take a transparent look at the early beginnings of Sworkit to where it is now. From a single developer to a team of 10 employees, and from 10 downloads to 10 million. This talk will be a combination of the development and marketing lessons learned and implemented along the way.",
+              "speakerNames": [ "Ryan Hanna" ],
+              "timeStart": "4:00 pm",
+              "timeEnd": "4:30 pm",
+              "tracks": [ "Session" ]
+            },
+            {
+              "name": "Generate for AEM and PhoneGap: Design Evolution 3.0 - D2W",
+              "description": "Taking design to the digital environment has traditionally been time consuming, resource intensive and something designers and developers have been challenged with since the inception of designing for the web. So what if we had the ability to take design compositions from within Photoshop or Illustrator (or any other design tool if there really is any other) and directly turn them into and app, website or email marketing with a one button click? Something that seems too good to be true doesn’t it, well maybe not. This talk will show new Adobe innovation still in the labs, which look at streamlining workflows and rapid prototyping for App creation with Adobe AEM and PhoneGap.",
+              "speakerNames": [ "Renée Lance" ],
+              "timeStart": "4:30 pm",
+              "timeEnd": "5:10 pm",
+              "tracks": [ "Session" ]
+            },
+            {
+              "name": "Loading native code (plugins) dynamically for the enterprise",
+              "description": "Hot-code reload for html/css/js is so 2015, everyone can do it. You probably thought you couldn't hot-reload plugin native code, well you were wrong! I'll show you how (and maybe bake a cake).",
+              "speakerNames": [ "Shazron Abdullah" ],
+              "timeStart": "5:10 pm",
+              "timeEnd": "5:30 pm",
+              "tracks": [ "Session", "Native" ]
+            },
+            {
+              "name": "Microsoft Visual Studio",
+              "description": "",
+              "speakerNames": [ "Ryan J Salva" ],
+              "timeStart": "5:30 pm",
+              "timeEnd": "5:50 pm",
+              "tracks": [ "Session", "VS" ]
+            },
+            {
+              "name": "Pub Mixer",
+              "timeStart": "6:00 pm",
+              "timeEnd": "8:00 pm",
+              "tracks": [ "Food" ]
+            }
+          ]
+        },
+
+        {
+          "time": "Saturday",
+          "sessions": [
+            {
+              "name": "Ski Day @ Sundance Mountain Resort",
+              "timeStart": "9:00 am",
+              "timeEnd": "5:00 pm",
+              "tracks": [ "Break" ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+
+  "speakers": [
+    {
+      "name": "Shazron Abdullah",
+      "title": "Senior Computer Scientist, Adobe",
+      "profilePic": "img/bio/shazron.jpg",
+      "about": "Based in San Francisco, by way of Vancouver, Canada and Singapore, Shaz has nearly two decades of software development experience getting with the nitty gritty of Windows, OS X and iOS and probably helped code something you know. Currently he helps maintain the iOS platform of Apache Cordova and Adobe PhoneGap and has been part of the project for quite some time.",
+      "twitter": "shazron"
+    },
+    {
+      "name": "Eric Alli",
+      "title": "Web Designer, Developer, and Musician",
+      "profilePic": "img/bio/ericalli.jpg",
+      "about": "Eric is a San Francico based designer & engineer who enjoys building useful products for niche spaces and sharing his affinity for music and art.",
+      "twitter": "two2twelve"
+    },
+    {
+      "name": "Alex Blom",
+      "title": "Partner, Isle of Code",
+      "profilePic": "img/bio/alexblom.jpg",
+      "about": "Alex is a hacker who works with Ember, Ruby & Go. He is a Partner at Isle of Code, a Toronto based agency focused on Ember, and using Ember in PhoneGap & iBeacon contexts. Prior, Alex was building a browser extension based startup in Ember (morse).",
+      "twitter": "AlexBlom"
+    },
+    {
+      "name": "Garth Braithwaite",
+      "title": "FED, Adobe",
+      "profilePic": "img/bio/garthdb.jpg",
+      "about": "Garth is a person.",
+      "twitter": "GarthDB"
+    },
+    {
+      "name": "Michael Brooks",
+      "title": "Senior Software Barista, Adobe",
+      "profilePic": "img/bio/michaelbrooks.jpg",
+      "about": "Orphaned as a child, Michael Brooks was raised by his elderly Uncle Ben and Aunt May. Academically gifted, he displayed an uncanny affinity for Computer Science with speciality in signal processing and computer vision. While attending a developer meetup at the age of 26, Michael was bitten on the hand by a radioactive Nitobi employee, empowering him with the company’s proportional open source belief, community, and ability to ship products. Now disguised as mwbrooks and teamed with Adobe, Michael slings between vim, GitHub, Twitter, and IRC to protect the innocent, confront evil, and make PhoneGap & Apache Cordova a safer framework for the future of application development.",
+      "twitter": "mwbrooks"
+    },
+    {
+      "name": "Raymond Camden",
+      "title": "Developer Advocate, IBM",
+      "profilePic": "img/bio/raymondcamden.jpg",
+      "about": "Raymond is a 42 year old married father of six living in beautiful Lafayette, Louisiana. His primary technical focus is on the MobileFirst platform, web standards and client-side development. Most of his time is spent writing, researching, or presenting. When he's not behind a computer, he's an avid XBox/PS4 player, he enjoys movies, and he reads like crazy.",
+      "twitter": "raymondcamden"
+    },
+    {
+      "name": "Cian Clarke",
+      "title": "Software Engineer, Red Hat Mobile",
+      "profilePic": "img/bio/cianclarke.jpg",
+      "about": "Cian is a Software Engineer on the Red Hat Mobile Team. An early technologist, he founded his own web consultancy business at 16. Cian was a member of the original FeedHenry mobile team, since acquired by Red Hat. At Red Hat, Cian builds functionality for the Mobile Application Platform, and also helps with solutions architecture and evangelism. In addition to his day job, he also regularly blogs about the intersection of all things mobile, microservices and Node.js. Cian is originally from Waterford, Ireland, and currently resides in Boston, Massachusetts.",
+      "twitter": "cianclarke"
+    },
+    {
+      "name": "Don Coleman",
+      "title": "Director, Chariot Solutions",
+      "profilePic": "img/bio/doncoleman.jpg",
+      "about": "Don enjoys hacking with phones, Arduino and other hardware. He has written PhoneGap plugins for Bluetooth and NFC. Don is the co-author of 'Make:Bluetooth' and 'Beginning NFC'.",
+      "twitter": "doncoleman"
+    },
+    {
+      "name": "David Frahm",
+      "title": "Product Creator, Sworkit",
+      "profilePic": "img/bio/davidfrahm.jpg",
+      "about": "Mobile and frontend developer focused on Ionic SDK and AngularJS apps, with a strong background in UX, Agile, eXtreme Programming, and startup growth. Living in the Midwest and contributing to the world.",
+      "twitter": "davidfrahm"
+    },
+    {
+      "name": "Chris Gosselin",
+      "title": "Full-Stack Developer, Rangle.io",
+      "profilePic": "img/bio/chrisgosselin.jpg",
+      "about": "Chris is a full-stack developer at Rangle.io, a Toronto-based development firm, where he works on creating high-end enterprise mobile apps. Chris' interest in coding started as a teen when he created a variant of a popular board game for his programming class. Since then he has contributed to various open source projects, growth-hacked a startup, and worked extensively on both server-side and client-side projects. When he’s not programming he enjoys rock climbing.",
+      "twitter": ""
+    },
+    {
+      "name": "Dean Haddock",
+      "title": "Managing Director, StoryCorps",
+      "profilePic": "img/bio/deanhaddock.jpg",
+      "about": "Dean Haddock is the Managing Director of Digital & Technical Innovation for StoryCorps, the national oral history project--one of the largest collections of human voices ever assembled--and popular NPR/PBS broadcast. He and his team design and build apps, websites and other platforms to further StoryCorps' mission of recording and preserving the stories of everyday people across the US and around the world. Most recently Dean led StoryCorps' 2015 $1m TED Prize initiative to build a mobile app and platform that anyone can use to record and archive oral history interviews permanently at the Library of Congress. He is a Nieman Foundation Visiting Fellow, a Knight Foundation Prototype Fund awardee, a two-time Google Fellow to the Personal Democracy Forum and a civic hacktivist.",
+      "twitter": "systemconscious"
+    },
+    {
+      "name": "Ryan Hanna",
+      "title": "Director of Engineering, Sworkit",
+      "profilePic": "img/bio/ryanhanna.jpg",
+      "about": "Ryan began learning to code online in 2012 and grew his side project into a top Health and Fitness app with over 10 million downloads. He is also a co-organizer of codebar.io in Brighton, England.",
+      "twitter": "heryandotus"
+    },
+    {
+      "name": "Mike Hartington",
+      "title": "Front End Developer, Ionic",
+      "profilePic": "img/bio/mikehartington.jpg",
+      "about": "Mike is a front-end developer who has used Ionic since its alpha. As Ionic’s developer advocate, Mike manages the Ionic Forum, serves as a resource to developers, and writes technical documentation. When he’s not working, you can find him relaxing with a beer and guitar.",
+      "twitter": "mhartington"
+    },
+    {
+      "name": "Shawn Jansepar",
+      "title": "Engineering Manager, Mobify",
+      "profilePic": "img/bio/shawnjansepar.jpg",
+      "about": "Shawn loves to hack both on the front-end and back-end, with a heavy focus on the user experience. When he isn't hacking, you likely find him playing hockey/video games, eating, or travelling. Shawn has a BSc in Computer Science from Simon Fraser University in Vancouver.",
+      "twitter": "shawnjan8"
+    },
+    {
+      "name": "Anis Kadri",
+      "title": "Software Engineer, Adobe",
+      "profilePic": "img/bio/aniskadri.jpg",
+      "about": "Anis is a Software Engineer at Adobe. He works on PhoneGap and Cordova full-time and has been contributing to the project since its early inception. Lately, he’s been interested in trying to introduce PhoneGap solutions to the enterprise world.",
+      "twitter": "aniskadri"
+    },
+    {
+      "name": "Tim Kim",
+      "title": "Expert Keyboard Masher, Adobe",
+      "profilePic": "img/bio/timkim.jpg",
+      "about": "Hacking on software by day and drawing digital illustrations by night, Tim enjoys all forms of creativity possible in the digital realm. Currently he works on the PhoneGap Developer App and making stickers for the PhoneGap team. When Tim isn't hard at work, you can can find him trying to memorize movie quotes, playing video games or generally ignoring his ever growing to-do list.",
+      "twitter": "timkim"
+    },
+    {
+      "name": "Renée Lance",
+      "title": "Solutions Consultant, Adobe",
+      "profilePic": "img/bio/reneelance.jpg",
+      "about": "Renée is a seasoned Web and UX designer and now an Adobe Solutions Consultant evangelizes Creative Cloud, Document Cloud and digital innovation. With more than 10 years experience with digital design, Renée is a passionate professional who is dedicated in developing solutions for business and creative professionals ensuring they remain competitive and deliver engaging customer experiences. Her creative-thinking skills and technical experience assist customers deliver innovative outcomes for creative and non-traditional creative industries.",
+      "twitter": "AdobeGeekGirl"
+    },
+    {
+      "name": "Bruce Lefebvre",
+      "title": "Computer Scientist, Adobe",
+      "profilePic": "img/bio/brucelefebvre.jpg",
+      "about": "Bruce is a programmer at Adobe focused on bringing Experience Manager and the open web together. As a member of the mobile R&D team, he’s most recently been focused on the AEM + PhoneGap integration. When not at his desk he can usually be found outside on his bike.",
+      "twitter": "brucelefebvre"
+    },
+    {
+      "name": "Simon Macdonald",
+      "title": "Senior Software Engineer, Adobe",
+      "profilePic": "img/bio/simonmacdonald.jpg",
+      "about": "Simon has over fifteen years of development experience and has worked on a variety of projects including object oriented databases, police communication systems, speech recognition and unified messaging. His current focus is contributing to the open source PhoneGap project to enable developers to create cross platform mobile applications using Web technologies. Simon’s been building web applications since the days they were written using shell scripts and he still has nightmares about those dark days.",
+      "twitter": "macdonst"
+    },
+    {
+      "name": "Jesse MacFadyen",
+      "title": "Sr. Computer Scientist, Adobe",
+      "profilePic": "img/bio/purplecabbage.jpg",
+      "about": "Jesse is a primordial PhoneGap contributor that has been around long enough to see many phonegap-killers come and go. He has written plugins for everything from the device accelerometer to bluetooth connected wearables like the ms-band, across windows, windows phone, android and ios. A self-proclaimed prolific procrastinator, Jesse often loses interest before he has a chance to fi",
+      "twitter": "purplecabbage"
+    },
+    {
+      "name": "Alexis Menard",
+      "title": "Software Engineer, Intel",
+      "profilePic": "img/bio/alexismenard.jpg",
+      "about": "Alexis Menard is a software engineer working at Intel in Oregon as part of the Open Source Technology Center. Here his main focus is on the ever evolving Web Platform, which includes work on W3C standards as well as Blink/Chromium. In the latter projects, he serves as both developer and code reviewer. Alexis is also working on Crosswalk, an HTML5 runtime/webview for Android and Windows where he does a bit of everything. Prior to Intel, Alexis worked on QtWebKit and WebKit itself at the Brazilian Nokia research center known as INdT. Before moving to Brazil, Alexis worked out of Norway, mostly on the Qt framework as a part of Nokia (former Trolltech). He is also a former KDE contributor where he contributed mostly to Plasma, the desktop shell of KDE.",
+      "twitter": "darktears"
+    },
+    {
+      "name": "Loki Meyburg",
+      "title": "Product Guy, Mobify",
+      "profilePic": "img/bio/lokimeyburg.jpg",
+      "about": "Loki is also the creator of Stacker, an open source project to kickstart the development of iOS apps. Previously he was the first employee at Medeo, a medical startup, that was acquired in 2014. Graduated with Honours in Business and Computer Science from the University of British Columbia.",
+      "twitter": "lokimeyburg"
+    },
+    {
+      "name": "Martin Poschenrieder",
+      "title": "Founder, testmunk",
+      "profilePic": "img/bio/martinposchenrieder.jpg",
+      "about": "Martin has been working in the mobile industry for most of the past decade. He began his career as an intern for one of the few German handset manufacturers, years before Android and iPhone were launched. After involvement with several app projects, he soon realized that one of the biggest pain-points in development was mobile app testing. In order to ease this pain, he started Testmunk. Testmunk is based in Silicon Valley, and provides automated app testing over the cloud.",
+      "twitter": "mposchenrieder"
+    },
+    {
+      "name": "Brian Rinaldi",
+      "title": "Developer Content Manager, Telerik",
+      "profilePic": "img/bio/brianrinaldi.jpg",
+      "about": "Brian is the Developer Content Manager at Telerik where he helps the Developer Relations team create top notch content for the developer community on the Telerik Developer Network. He is also co-editor of Mobile Web Weekly.",
+      "twitter": "remotesynth"
+    },
+    {
+      "name": "Ryan J Salva",
+      "title": "JavaScript Developer",
+      "profilePic": "img/bio/ryanjsalva.jpg",
+      "about": "JavaScript developer, Apache Cordova committer, Visual Studio program manager, CrossFitter, sci-fi connoisseur and whiskey enthusiast. With over 15 years of experience in software development, it’s hard to find a corner of the web where he hasn’t worked, but the important thing to know is this: Ryan is a passionate storyteller with deep insight into market forces, technology, user experience and design. Today, he owns tooling for cross-platform mobile app development at Microsoft. Tomorrow, the world.",
+      "twitter": "ryanjsalva"
+    },
+    {
+      "name": "Holly Schinsky",
+      "title": "Senior Technical Evangelist, Adobe",
+      "profilePic": "img/bio/hollyschinsky.jpg",
+      "about": "Holly Schinsky is working with the PhoneGap team at Adobe and currently focused on mobile development using PhoneGap, HTML/CSS and JavaScript. She has 17 years experience in software development including Java, Adobe Flex/AIR and ActionScript in addition to her recent hybrid mobile work. Holly’s latest focus is on developer advocacy and education via her blog, samples and workshops. In her free time she’s usually found driving a carpool, running or hanging out with her family.",
+      "twitter": "devgirlFL"
+    },
+    {
+      "name": "Bob Spencer",
+      "title": "Software Architect, Intel",
+      "profilePic": "img/bio/bobspencer.jpg",
+      "about": "Bob Spencer is a software architect in Intel's Open Source Technology Center where for the past decade his work has been centered on open source developer tools and SDKs. He is the community manager on the Crosswalk Project team. In his free time he will be biking, backpacking, or hanging with his family.",
+      "twitter": ""
+    },
+    {
+      "name": "Masahiro Tanaka",
+      "title": "CEO, Monaca Corporation",
+      "profilePic": "img/bio/masahirotanaka.jpg",
+      "about": "Masa is the CEO of Monaca Corporation, the company behind Japan's #1 hybrid app development tools, Monaca and Onsen UI. He started his company as a pioneer in web and mobile communities in Japan, writing numerous PHP books and initiating Cordova meetups. Masa still maintains a leadership role within mobile and IoT communities in Japan and overseas as a hybrid app development vanguard and framework trendsetter.",
+      "twitter": ""
+    },
+    {
+      "name": "TJ VanToll",
+      "title": "Senior Developer Advocate, Telerik",
+      "profilePic": "img/bio/tjvantoll.jpg",
+      "about": "TJ VanToll is a front-end developer, author, and a senior developer advocate for Telerik. TJ has over a decade of web development experience, including a few years working on the jQuery team. Nowadays, he spends his time helping web developers build mobile apps through projects like Cordova and NativeScript. TJ is @tjvantoll on Twitter and tjvantoll on GitHub.",
+      "twitter": "tjvantoll"
+    },
+    {
+      "name": "Jed Watson",
+      "title": "Founder, Thinkmill",
+      "profilePic": "img/bio/jedwatson.jpg",
+      "about": "Jed is a founder of Thinkmill, a web and mobile app development agency in Sydney, and has been writing JavaScript since IE6 was new and exciting. A prolific open source contributor, Jed is the driving force behind KeystoneJS - the node.js content management platform - and several major React.js libraries including Elemental UI and TouchstoneJS, which is a UI Framework for hybrid mobile apps.",
+      "twitter": "jedwatson"
+    },
+    {
+      "name": "Nick Van Weerdenburg",
+      "title": "Founder, Rangle.io",
+      "profilePic": "img/bio/nickvanweerdenburg.jpg",
+      "about": "Nick is Rangle.io’s founder, first developer, and now leads the company’s business development and strategy activities. Nick first did server-side JavaScript in 1997 and has 15 years of experience in web software in diverse roles and industries. He is a firm believer in the thin-server, full-JavaScript stack and an active speaker, delivering about a dozen talks each year.",
+      "twitter": "n1cholasv"
+    },
+    {
+      "name": "Tommy Williams",
+      "title": "Sr Computer Scientist, Adobe",
+      "profilePic": "img/bio/tommywilliams.jpg",
+      "about": "Apache Cordova committer and developer advocate, creator of Encryptr, and Sr Computer Scientist on the PhoneGap team at Adobe.",
+      "twitter": "therealdevgeeks"
+    }
+  ],
+
+
+  "map": [
+    {
+      "name": "Adobe Lehi Office",
+      "lat": 40.437728,
+      "lng": -111.890774,
+      "center": true
+    },
+    {
+      "name": "Sundance Mountain Resort",
+      "lat": 40.3907176,
+      "lng": -111.5837523
+    }
+  ]
+
+}

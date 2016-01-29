@@ -1,0 +1,11 @@
+﻿<Page xmlns:ace="using:run.ace" ace:Frame.Title="Filter Schedule">
+    <!-- A button to commit the changes -->
+    <Page.TopAppBar>
+        <CommandBar>
+            <AppBarButton Name="doneButton" Label="Done" />
+        </CommandBar>
+    </Page.TopAppBar>
+    
+    <!-- The listbox is populated from code -->
+    <ListBox Name="list" />
+</Page>

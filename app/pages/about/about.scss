@@ -1,0 +1,55 @@
+.main-title {
+  margin-top: 8px;
+}
+
+.view-ratings {
+  display: none;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 36px;
+}
+
+.phone-info {
+  margin-top: 30px;
+  margin-bottom: 36px;
+}
+
+.about-header {
+  background-color: #ffffff;
+  padding: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.about-header img {
+  max-width: 100px;
+}
+
+.about-info p {
+  color: #697072;
+  text-align: left;
+}
+
+.about-info div {
+  padding: 5px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.about-info ion-icon {
+  color: color(primary);
+  width: 20px;
+}
+
+.ios .about-info {
+  text-align: center;
+}
+
+.ios .about-info div {
+  display: inline-block;
+}
+
+.ios .about-info ion-icon {
+  width: auto;
+  margin-right: 10px;
+}

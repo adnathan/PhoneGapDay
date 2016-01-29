@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <color name="accent">#27A1C5</color>
+  <color name="foreground">#ffffff</color>
+  <color name="primary_dark">#0E88AC</color>
+
+  <style name="Theme.Customtheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+    <item name="android:navigationBarColor">@color/accent</item>
+
+    <item name="android:colorPrimary">@color/accent</item>
+    <!-- Used for the status bar: -->
+    <item name="android:colorPrimaryDark">@color/primary_dark</item>
+    <!-- Used for controls like Switch and RatingBar: -->
+    <item name="android:colorAccent">@color/accent</item>
+    
+    <item name="android:actionBarDivider">@null</item>
+    <item name="android:windowContentOverlay">@drawable/shadow</item>
+    
+    <item name="android:actionBarItemBackground">@color/accent</item>
+    <item name="android:popupMenuStyle">@style/PopupMenu.Customtheme</item>
+    <item name="android:dropDownListViewStyle">@style/DropDownListView.Customtheme</item>
+    <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Customtheme</item>
+    <item name="android:actionDropDownStyle">@style/DropDownNav.Customtheme</item>
+    <item name="android:actionBarStyle">@style/ActionBar.Solid.Customtheme</item>
+    <item name="android:actionModeBackground">@color/accent</item>
+    <item name="android:actionModeSplitBackground">@color/accent</item>
+    <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Customtheme</item>
+        
+    <!-- Light.DarkActionBar specific -->
+    <item name="android:actionBarWidgetTheme">@style/Theme.Customtheme.Widget</item>
+
+  </style>
+
+  <style name="ActionBar.Solid.Customtheme" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
+      <item name="android:background">@color/accent</item>
+      <item name="android:backgroundStacked">@color/accent</item>
+      <item name="android:backgroundSplit">@color/accent</item>
+      <item name="android:progressBarStyle">@style/ProgressBar.Customtheme</item>
+  </style>
+
+  <style name="PopupMenu.Customtheme" parent="@android:style/Widget.Material.Light.ListPopupWindow">
+    <item name="android:popupBackground">@color/accent</item>
+  </style>
+
+  <style name="DropDownListView.Customtheme" parent="@android:style/Widget.Material.Light.ListView.DropDown">
+    <item name="android:listSelector">@color/accent</item>
+  </style>
+
+  <style name="ActionBarTabStyle.Customtheme" parent="@android:style/Widget.Material.ActionBar.TabView">
+    <item name="android:background">@drawable/tab_indicator_ab_customtheme</item>
+  </style>
+
+  <style name="DropDownNav.Customtheme" parent="@android:style/Widget.Material.Spinner">
+        <item name="android:background">@color/accent</item>
+        <item name="android:popupBackground">@color/accent</item>
+        <item name="android:dropDownSelector">@color/accent</item>
+    </style>
+    
+    <style name="ProgressBar.Customtheme" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@color/foreground</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Customtheme" parent="@android:style/Widget.Material.ActionButton.CloseMode">
+        <item name="android:background">@color/accent</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Customtheme.Widget" parent="@android:style/Theme.Material">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Customtheme</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Customtheme</item>
+    </style>
+
+</resources>

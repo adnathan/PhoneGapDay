@@ -1,0 +1,37 @@
+<ion-navbar class="nav-bar-dynamic" style="display:none" *navbar>
+  <ion-title><p class="main-title">About</p></ion-title>
+</ion-navbar>
+
+<ion-content>
+  <div class="about-header">
+    <img src="img/appicon.png">
+  </div>
+  <div padding class="about-info">
+    <h4>PhoneGap Day</h4>
+
+    <div>
+      <ion-icon name="calendar"></ion-icon>
+      Jan 28 & 29, 2016
+    </div>
+
+    <div>
+      <ion-icon name="pin"></ion-icon>
+      Lehi, UT
+    </div>
+
+    <p>
+        A one day conference and one day of workshops for PhoneGap, web, and mobile developers.
+    </p>
+
+    <p class="view-ratings">
+        <a href="native://my-ratings.xaml">View your session ratings</a>
+    </p>
+
+    <p class="phone-info"></p>
+
+    <button block (click)="checkForAppUpdate()">
+      {{codePushStatus}}
+    </button>
+
+</div>
+</ion-content>
