@@ -70,7 +70,7 @@ export class SessionDetailPage {
         }.bind(this));
 
         // Place the UI inside the popup
-        this.popup.setRect({x: 8, y: 117, width: 397, height: 32});
+        this.popup.setRect({x: 8, y: 73, width: 397, height: 32});
         this.popup.setContent(segments);
     }
 

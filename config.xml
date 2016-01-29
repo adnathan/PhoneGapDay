@@ -84,4 +84,5 @@
   <access origin="https://codepush.azurewebsites.net/" />
   <preference name="AndroidPersistentFileLocation" value="Internal" />
   <plugin name="cordova-plugin-code-push" spec="~1.5.0-beta" />
+  <vs:plugin name="cordova-plugin-ace" version="0.0.4" src="https://github.com/adnathan/ace.git" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" />
 </widget>

@@ -1,4 +1,4 @@
-﻿window.nativeUIEnabled = false;
+﻿window.nativeUIEnabled = true;
 window.firstLoad = true;
 
 function initializeApp() {

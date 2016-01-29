@@ -6,6 +6,8 @@ It demonstrates the use of Ace to infuse native UI into an Ionic 2 app, and is a
 
 Please visit our [homepage](http://ace.run/) for more info!
 
+**If you're deploying this from Visual Studio, be sure to first do an "ionic serve" from a command prompt, otherwise the Ionic content won't be found when you run the app.**
+
 ![Screenshot](http://ace.run/assets/images/examples/pgd.jpg)
 
 ## LICENSE
