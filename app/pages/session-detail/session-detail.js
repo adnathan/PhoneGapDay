@@ -56,6 +56,9 @@ export class SessionDetailPage {
         segments.invoke("insertSegmentWithTitle:atIndex:animated:", "\u2605\u2605\u2605\u2605", 3, false);
         segments.invoke("insertSegmentWithTitle:atIndex:animated:", "\u2605\u2605\u2605\u2605\u2605", 4, false);
 
+        // Size the control
+        segments.invoke("sizeToFit");
+            
         // Initialize the rating to the previously-set value
         var existingRatingValue = window.localStorage.getItem("rating:" + this.session.name);
         if (existingRatingValue) {
