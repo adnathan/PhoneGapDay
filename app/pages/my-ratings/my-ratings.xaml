@@ -1,4 +1,8 @@
-﻿<Page xmlns:ace="using:run.ace" ace:Frame.Title="My Ratings" ace:On.Loaded="onMyRatingsLoad(this)">
+﻿<!--
+    Note: If you update this markup, you must recompile it on Windows 
+    and replace the corresponding .xbf file under www/xbf.
+-->
+<Page xmlns:ace="using:run.ace" ace:Frame.Title="My Ratings" ace:On.Loaded="onMyRatingsLoad(this)">
     <!-- A button to delete all -->
     <Page.TopAppBar>
         <CommandBar>

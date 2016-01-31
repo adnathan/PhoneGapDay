@@ -1,4 +1,8 @@
-﻿<Page xmlns:ace="using:run.ace" ace:Frame.Title="Schedule">
+﻿<!--
+    Note: If you update this markup, you must recompile it on Windows 
+    and replace the corresponding .xbf file under www/xbf.
+-->
+<Page xmlns:ace="using:run.ace" ace:Frame.Title="Schedule">
     <!-- A tab bar -->
     <Page.BottomAppBar>
         <ace:TabBar>

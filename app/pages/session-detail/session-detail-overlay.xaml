@@ -1,4 +1,8 @@
-﻿<Canvas xmlns:if="using:if"
+﻿<!--
+    Note: If you update this markup, you must recompile it on Windows 
+    and replace the corresponding .xbf file under www/xbf.
+-->
+<Canvas xmlns:if="using:if"
         xmlns:ios="using:ios"
         xmlns:android="using:android.widget">
     <if:Android>
